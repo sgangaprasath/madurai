@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"/ka_uuMatra-tamil ௯"
+);
 date = "2022-11-25 23:19:09 +0000";
 familyName = "New Font";
 fontMaster = (
@@ -5127,12 +5130,59 @@ unicode = 3054;
 },
 {
 glyphname = "nine-tamil";
+lastChange = "2023-04-04 13:40:58 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+pos = (-50,0);
+ref = chaMelPaadi;
+},
+{
+pos = (50,0);
+ref = chaKeezhPaadi;
+},
+{
+closed = 0;
+nodes = (
+(250,350,l),
+(447,350,ls),
+(535,350,o),
+(600,285,o),
+(600,197,cs),
+(600,153,ls),
+(600,65,o),
+(535,0,o),
+(447,0,cs),
+(314,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(433,160,o),
+(464,195,o),
+(464,242,cs),
+(464,268,ls),
+(464,315,o),
+(432,350,o),
+(389,350,cs),
+(346,350,o),
+(314,315,o),
+(314,268,cs),
+(314,242,ls),
+(314,195,o),
+(346,160,o),
+(389,160,cs)
+);
 }
 );
+width = 650;
+}
+);
+metricLeft = "ca-tamil";
+metricRight = "ca-tamil";
 unicode = 3055;
 },
 {
