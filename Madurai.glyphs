@@ -7,7 +7,12 @@ DisplayStrings = (
 "இதன் அறிவியல்
 பருவநிலை கிரீ",
 "வி",
-"படியுங்கள் ு"
+"படியுங்கள் ு",
+"மி",
+"ளி",
+"க",
+"த",
+"கி"
 );
 date = "2022-11-25 23:19:09 +0000";
 familyName = MaduraiUpdate;
@@ -29,11 +34,6 @@ feature cjct;
 feature psts;
 ";
 tag = aalt;
-},
-{
-code = "lookupflag IgnoreMarks;
-sub va-tamil iMatra-tamil by va_iMatra-tamil.liga;";
-tag = liga;
 },
 {
 code = "lookupflag 0;
@@ -86,9 +86,11 @@ sub va-tamil uuMatra-tamil by va_uuMatra-tamil;
 
 #iMatra ligatures
 sub tta-tamil iMatra-tamil by tta_iMatra-tamil;
+sub va-tamil iMatra-tamil by va_iMatra-tamil;
 
 #iiMatra ligatures
-sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;";
+sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;
+";
 tag = psts;
 }
 );
@@ -1844,8 +1846,8 @@ metricLeft = "ca-tamil";
 metricRight = "ca-tamil";
 },
 {
-glyphname = "va_iMatra-tamil.liga";
-lastChange = "2023-04-05 10:40:46 +0000";
+glyphname = "va_iMatra-tamil";
+lastChange = "2023-04-05 11:42:56 +0000";
 layers = (
 {
 layerId = m01;
@@ -3446,7 +3448,7 @@ unicode = 2979;
 },
 {
 glyphname = "ta-tamil";
-lastChange = "2023-04-05 09:37:07 +0000";
+lastChange = "2023-04-05 11:46:24 +0000";
 layers = (
 {
 anchors = (
@@ -3456,7 +3458,7 @@ pos = (251,600);
 },
 {
 name = top;
-pos = (230,600);
+pos = (250,600);
 }
 );
 layerId = m01;
@@ -5466,7 +5468,7 @@ unicode = 3006;
 },
 {
 glyphname = "iMatra-tamil";
-lastChange = "2023-04-05 11:22:59 +0000";
+lastChange = "2023-04-05 11:44:43 +0000";
 layers = (
 {
 anchors = (
@@ -6116,7 +6118,11 @@ m01 = {
 "sa-tamil" = -80;
 };
 "lla-tamil" = {
+"iMatra-tamil" = -130;
 "lla_uMatra-tamil" = -50;
+};
+"ma-tamil" = {
+"iMatra-tamil" = -110;
 };
 "na-tamil" = {
 "iMatra-tamil" = -160;
