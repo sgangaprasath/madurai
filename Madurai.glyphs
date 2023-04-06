@@ -3,16 +3,15 @@
 .formatVersion = 3;
 DisplayStrings = (
 "அஆஇஈஉஊஎஏஐஒஓஔகஙசஜஞடணதநனபமயரறலளழவஶஷஸஹௐஃ",
-"ா",
-"இதன் அறிவியல்
-பருவநிலை கிரீ",
-"வி",
-"படியுங்கள் ு",
-"மி",
 "ளி",
 "க",
 "த",
-"கி"
+"கி",
+"ெ",
+"",
+"ே",
+"/sa_iiMatra-tamil ே",
+"யிவிஙிவீடு"
 );
 date = "2022-11-25 23:19:09 +0000";
 familyName = MaduraiUpdate;
@@ -86,11 +85,27 @@ sub va-tamil uuMatra-tamil by va_uuMatra-tamil;
 
 #iMatra ligatures
 sub tta-tamil iMatra-tamil by tta_iMatra-tamil;
-sub va-tamil iMatra-tamil by va_iMatra-tamil;
 
 #iiMatra ligatures
 sub tta-tamil iiMatra-tamil by tta_iiMatra-tamil;
-";
+
+#Check
+lookup imatra_pavaya {
+	lookupflag 0;
+	sub iMatra-tamil by iMatra-tamil.001;
+	sub iiMatra-tamil by iiMatra-tamil.001;
+} imatra_pavaya;
+
+lookup wide_pavaya {
+	lookupflag 0;
+	sub nga-tamil	by nga-tamil.001;
+#	sub pa-tamil 	by pa-tamil.001;
+#	sub ya-tamil 	by ya-tamil.001;
+	sub va-tamil	by va-tamil.001;
+} wide_pavaya;
+
+sub [nga-tamil pa-tamil ya-tamil va-tamil]' lookup wide_pavaya [iMatra-tamil iiMatra-tamil]' lookup imatra_pavaya;
+sub [ya-tamil va-tamil]' [iMatra-tamil iiMatra-tamil]' lookup imatra_pavaya;";
 tag = psts;
 }
 );
@@ -122,7 +137,7 @@ pos = 800;
 );
 name = Regular;
 userData = {
-GSCornerRadius = 90;
+GSCornerRadius = 150;
 };
 }
 );
@@ -1840,64 +1855,6 @@ ref = kokkiVattam;
 }
 );
 width = 600;
-}
-);
-metricLeft = "ca-tamil";
-metricRight = "ca-tamil";
-},
-{
-glyphname = "va_iMatra-tamil";
-lastChange = "2023-04-05 11:42:56 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-pos = (50,196);
-ref = chinnaVattam;
-},
-{
-closed = 0;
-nodes = (
-(520,0,l),
-(520,708,ls),
-(520,761,o),
-(481,800,o),
-(428,800,cs),
-(412,800,ls),
-(359,800,o),
-(320,761,o),
-(320,708,cs),
-(320,692,ls),
-(320,639,o),
-(359,600,o),
-(412,600,cs),
-(420,600,l),
-(420,0,l),
-(110,0,ls),
-(81,0,o),
-(59,21,o),
-(59,50,cs),
-(59,79,o),
-(81,100,o),
-(110,100,cs),
-(198,100,ls),
-(269,100,o),
-(320,151,o),
-(320,222,cs),
-(320,478,ls),
-(320,549,o),
-(269,600,o),
-(198,600,cs),
-(172,600,ls),
-(101,600,o),
-(50,549,o),
-(50,478,cs),
-(50,295,l)
-);
-}
-);
-width = 570;
 }
 );
 metricLeft = "ca-tamil";
@@ -4662,6 +4619,118 @@ metricLeft = "ca-tamil";
 metricRight = "ca-tamil";
 },
 {
+glyphname = "nga-tamil.001";
+lastChange = "2023-04-06 10:28:13 +0000";
+layers = (
+{
+anchors = (
+{
+name = imatra;
+pos = (230,600);
+},
+{
+name = top;
+pos = (280,600);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(230,150,l),
+(230,600,l),
+(50,600,l),
+(50,0,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(230,600,l),
+(360,600,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(230,260,l),
+(230,305,o),
+(251,345,o),
+(311,345,cs),
+(410,345,o),
+(410,292,o),
+(410,155,cs),
+(410,51,o),
+(379,-2,o),
+(252,-2,c),
+(510,0,l),
+(510,600,l)
+);
+}
+);
+width = 560;
+}
+);
+metricLeft = "ca-tamil";
+metricRight = "ca-tamil";
+},
+{
+glyphname = "va-tamil.001";
+lastChange = "2023-04-06 10:30:11 +0000";
+layers = (
+{
+anchors = (
+{
+name = imatra;
+pos = (420,600);
+},
+{
+name = top;
+pos = (320,600);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (50,196);
+ref = chinnaVattam;
+},
+{
+closed = 0;
+nodes = (
+(420,600,l),
+(420,0,l),
+(110,0,ls),
+(81,0,o),
+(59,21,o),
+(59,50,cs),
+(59,79,o),
+(81,100,o),
+(110,100,cs),
+(198,100,ls),
+(269,100,o),
+(320,151,o),
+(320,222,cs),
+(320,478,ls),
+(320,549,o),
+(269,600,o),
+(198,600,cs),
+(172,600,ls),
+(101,600,o),
+(50,549,o),
+(50,478,cs),
+(50,295,l)
+);
+}
+);
+width = 470;
+}
+);
+metricLeft = "ca-tamil";
+metricRight = "ca-tamil";
+},
+{
 glyphname = "ten-tamil";
 lastChange = "2023-04-04 13:52:05 +0000";
 layers = (
@@ -5401,13 +5470,13 @@ unicode = 3008;
 },
 {
 glyphname = "pulli-tamil";
-lastChange = "2023-04-05 09:18:03 +0000";
+lastChange = "2023-04-06 10:34:46 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (300,600);
+pos = (60,600);
 }
 );
 layerId = m01;
@@ -5415,29 +5484,73 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(332,650,o),
-(360,678,o),
-(360,710,cs),
-(360,742,o),
-(332,770,o),
-(300,770,cs),
-(268,770,o),
-(240,742,o),
-(240,710,cs),
-(240,678,o),
-(268,650,o),
-(300,650,cs)
+(92,650,o),
+(120,678,o),
+(120,710,cs),
+(120,742,o),
+(92,770,o),
+(60,770,cs),
+(28,770,o),
+(0,742,o),
+(0,710,cs),
+(0,678,o),
+(28,650,o),
+(60,650,cs)
 );
 }
 );
-width = 600;
+width = 120;
 }
 );
 unicode = 3021;
 },
 {
+glyphname = "iiMatra-tamil.001";
+lastChange = "2023-04-06 10:39:30 +0000";
+layers = (
+{
+anchors = (
+{
+name = _imatra;
+pos = (-50,500);
+},
+{
+name = top;
+pos = (-69,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(30,708,l),
+(30,761,o),
+(-9,800,o),
+(-62,800,cs),
+(-78,800,ls),
+(-131,800,o),
+(-170,761,o),
+(-170,708,cs),
+(-170,592,ls),
+(-170,539,o),
+(-131,500,o),
+(-78,500,cs),
+(-50,500,l)
+);
+},
+{
+pos = (-70,658);
+ref = kokkiVattam;
+}
+);
+width = 30;
+}
+);
+},
+{
 glyphname = "aaMatra-tamil";
-lastChange = "2023-04-05 09:42:01 +0000";
+lastChange = "2023-04-06 10:35:45 +0000";
 layers = (
 {
 layerId = m01;
@@ -5459,16 +5572,15 @@ nodes = (
 );
 }
 );
-width = 440;
+width = 390;
 }
 );
 metricLeft = "ca-tamil";
-metricRight = "ca-tamil";
 unicode = 3006;
 },
 {
 glyphname = "iMatra-tamil";
-lastChange = "2023-04-05 11:44:43 +0000";
+lastChange = "2023-04-06 10:34:26 +0000";
 layers = (
 {
 anchors = (
@@ -5522,20 +5634,68 @@ unicode = 3010;
 },
 {
 glyphname = "eMatra-tamil";
+lastChange = "2023-04-06 09:58:29 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+closed = 0;
+nodes = (
+(370,0,l),
+(370,447,ls),
+(370,535,o),
+(305,600,o),
+(217,600,cs),
+(204,600,ls),
+(86,600,o),
+(0,514,o),
+(0,396,cs),
+(0,175,l)
+);
+},
+{
+pos = (0,50);
+ref = naduVattam;
+}
+);
+width = 370;
 }
 );
 unicode = 3014;
 },
 {
 glyphname = "eeMatra-tamil";
+lastChange = "2023-04-06 10:07:44 +0000";
 layers = (
 {
 layerId = m01;
-width = 600;
+shapes = (
+{
+pos = (107,400);
+ref = chinnaVattam;
+},
+{
+closed = 0;
+nodes = (
+(182,0,l),
+(122,0,ls),
+(52,0,o),
+(0,51,o),
+(0,122,cs),
+(0,478,ls),
+(0,549,o),
+(51,600,o),
+(122,600,cs),
+(182,600,l)
+);
+},
+{
+pos = (107,0);
+ref = chinnaVattam;
+}
+);
+width = 195;
 }
 );
 unicode = 3015;
@@ -5666,6 +5826,43 @@ layers = (
 {
 layerId = m01;
 width = 600;
+}
+);
+},
+{
+glyphname = "iMatra-tamil.001";
+lastChange = "2023-04-06 10:21:41 +0000";
+layers = (
+{
+anchors = (
+{
+name = _imatra;
+pos = (-50,550);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(50,0,l),
+(50,708,ls),
+(50,761,o),
+(11,800,o),
+(-42,800,cs),
+(-58,800,ls),
+(-111,800,o),
+(-150,761,o),
+(-150,708,cs),
+(-150,642,ls),
+(-150,589,o),
+(-111,550,o),
+(-58,550,cs),
+(-50,550,l)
+);
+}
+);
+width = 50;
 }
 );
 },
@@ -6126,6 +6323,9 @@ m01 = {
 };
 "na-tamil" = {
 "iMatra-tamil" = -160;
+};
+"nnna-tamil" = {
+"iMatra-tamil" = -96;
 };
 "ra-tamil" = {
 "iiMatra-tamil" = -140;
