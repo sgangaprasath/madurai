@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaKeezhPaadi" format="2">
+	<advance width="179"/>
+	<outline>
+		<contour>
+			<point x="69.2" y="-10" type="curve" smooth="yes"/>
+			<point x="161.2" y="-10"/>
+			<point x="189.2" y="74.4"/>
+			<point x="189.2" y="175.2" type="curve" smooth="yes"/>
+			<point x="189.2" y="275.6"/>
+			<point x="160.8" y="360"/>
+			<point x="59.2" y="360" type="curve" smooth="yes"/>
+			<point x="19.2" y="360" type="line" smooth="yes"/>
+			<point x="13.6" y="360"/>
+			<point x="9.2" y="355.6"/>
+			<point x="9.2" y="350" type="curve" smooth="yes"/>
+			<point x="9.2" y="344.4"/>
+			<point x="13.6" y="340"/>
+			<point x="19.2" y="340" type="curve" smooth="yes"/>
+			<point x="59.2" y="340" type="line" smooth="yes"/>
+			<point x="146" y="340"/>
+			<point x="169.2" y="271.2"/>
+			<point x="169.2" y="175.2" type="curve" smooth="yes"/>
+			<point x="169.2" y="78.8"/>
+			<point x="146" y="10"/>
+			<point x="69.2" y="10" type="curve" smooth="yes"/>
+			<point x="45.6" y="10"/>
+			<point x="25.2" y="16.4"/>
+			<point x="5.2" y="27.6" type="curve"/>
+			<point x="4.8" y="27.6" type="line"/>
+			<point x="3.6" y="28.4"/>
+			<point x="2" y="29.2"/>
+			<point x="0" y="29.2" type="curve" smooth="yes"/>
+			<point x="-5.6" y="29.2"/>
+			<point x="-10" y="24.4"/>
+			<point x="-10" y="19.2" type="curve" smooth="yes"/>
+			<point x="-10" y="15.2"/>
+			<point x="-8" y="12"/>
+			<point x="-4.8" y="10.4" type="curve" smooth="yes"/>
+			<point x="17.2" y="-2.4"/>
+			<point x="42.4" y="-10"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="llla_uuMatra-tamil" format="2">
+	<advance width="600"/>
+	<anchor x="530" y="600" name="imatra"/>
+	<anchor x="300" y="600" name="top"/>
+	<outline>
+		<contour>
+			<point x="172" y="-280" type="curve" smooth="yes"/>
+			<point x="325" y="-280" type="line" smooth="yes"/>
+			<point x="380" y="-280"/>
+			<point x="421" y="-238"/>
+			<point x="422" y="-183" type="curve" smooth="yes"/>
+			<point x="422" y="-136"/>
+			<point x="453" y="-104"/>
+			<point x="499" y="-104" type="curve" smooth="yes"/>
+			<point x="520" y="-104" type="line" smooth="yes"/>
+			<point x="526" y="-104"/>
+			<point x="530" y="-100"/>
+			<point x="530" y="-94" type="curve" smooth="yes"/>
+			<point x="530" y="-88"/>
+			<point x="526" y="-84"/>
+			<point x="520" y="-84" type="curve" smooth="yes"/>
+			<point x="467" y="-84" type="line" smooth="yes"/>
+			<point x="421" y="-84"/>
+			<point x="389" y="-54"/>
+			<point x="385" y="-10" type="curve"/>
+			<point x="461" y="-10" type="line" smooth="yes"/>
+			<point x="517" y="-10"/>
+			<point x="560" y="33"/>
+			<point x="560" y="89" type="curve" smooth="yes"/>
+			<point x="560" y="511" type="line" smooth="yes"/>
+			<point x="560" y="567"/>
+			<point x="518" y="610"/>
+			<point x="463" y="610" type="curve" smooth="yes"/>
+			<point x="408" y="610"/>
+			<point x="365" y="567"/>
+			<point x="365" y="511" type="curve" smooth="yes"/>
+			<point x="365" y="10" type="line"/>
+			<point x="210" y="10" type="line"/>
+			<point x="210" y="600" type="line" smooth="yes"/>
+			<point x="210" y="606"/>
+			<point x="206" y="610"/>
+			<point x="200" y="610" type="curve" smooth="yes"/>
+			<point x="194" y="610"/>
+			<point x="190" y="606"/>
+			<point x="190" y="600" type="curve" smooth="yes"/>
+			<point x="190" y="0" type="line" smooth="yes"/>
+			<point x="190" y="-6"/>
+			<point x="194" y="-10"/>
+			<point x="200" y="-10" type="curve" smooth="yes"/>
+			<point x="365" y="-10" type="line"/>
+			<point x="368" y="-56"/>
+			<point x="400" y="-92"/>
+			<point x="443" y="-101" type="curve"/>
+			<point x="418" y="-118"/>
+			<point x="403" y="-147"/>
+			<point x="402" y="-181" type="curve" smooth="yes"/>
+			<point x="402" y="-228"/>
+			<point x="371" y="-260"/>
+			<point x="325" y="-260" type="curve" smooth="yes"/>
+			<point x="172" y="-260" type="line" smooth="yes"/>
+			<point x="105" y="-260"/>
+			<point x="60" y="-215"/>
+			<point x="60" y="-148" type="curve" smooth="yes"/>
+			<point x="60" y="356" type="line"/>
+			<point x="71" y="346"/>
+			<point x="85" y="340"/>
+			<point x="100" y="340" type="curve" smooth="yes"/>
+			<point x="132" y="340"/>
+			<point x="160" y="368"/>
+			<point x="160" y="400" type="curve" smooth="yes"/>
+			<point x="160" y="432"/>
+			<point x="132" y="460"/>
+			<point x="100" y="460" type="curve" smooth="yes"/>
+			<point x="68" y="460"/>
+			<point x="40" y="432"/>
+			<point x="40" y="400" type="curve" smooth="yes"/>
+			<point x="40" y="-148" type="line" smooth="yes"/>
+			<point x="40" y="-224"/>
+			<point x="96" y="-280"/>
+		</contour>
+		<contour>
+			<point x="100" y="360" type="curve" smooth="yes"/>
+			<point x="77" y="360"/>
+			<point x="60" y="377"/>
+			<point x="60" y="400" type="curve" smooth="yes"/>
+			<point x="60" y="423"/>
+			<point x="77" y="440"/>
+			<point x="100" y="440" type="curve" smooth="yes"/>
+			<point x="123" y="440"/>
+			<point x="140" y="423"/>
+			<point x="140" y="400" type="curve" smooth="yes"/>
+			<point x="140" y="377"/>
+			<point x="123" y="360"/>
+		</contour>
+		<contour>
+			<point x="385" y="10" type="line"/>
+			<point x="385" y="511" type="line" smooth="yes"/>
+			<point x="385" y="558"/>
+			<point x="417" y="590"/>
+			<point x="463" y="590" type="curve" smooth="yes"/>
+			<point x="509" y="590"/>
+			<point x="540" y="558"/>
+			<point x="540" y="511" type="curve" smooth="yes"/>
+			<point x="540" y="89" type="line" smooth="yes"/>
+			<point x="540" y="42"/>
+			<point x="508" y="10"/>
+			<point x="461" y="10" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>ca-tamil</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>ca-tamil</string>
+		</dict>
+	</lib>
+</glyph>

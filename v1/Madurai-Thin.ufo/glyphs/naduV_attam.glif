@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naduVattam" format="2">
+	<advance width="180"/>
+	<outline>
+		<contour>
+			<point x="90" y="-10" type="curve" smooth="yes"/>
+			<point x="148.8" y="-10"/>
+			<point x="190" y="37.2"/>
+			<point x="190" y="98" type="curve" smooth="yes"/>
+			<point x="190" y="142" type="line" smooth="yes"/>
+			<point x="190" y="203.2"/>
+			<point x="147.6" y="250"/>
+			<point x="90" y="250" type="curve" smooth="yes"/>
+			<point x="32.4" y="250"/>
+			<point x="-10" y="203.2"/>
+			<point x="-10" y="142" type="curve" smooth="yes"/>
+			<point x="-10" y="98" type="line" smooth="yes"/>
+			<point x="-10" y="36.8"/>
+			<point x="32.4" y="-10"/>
+		</contour>
+		<contour>
+			<point x="90" y="10" type="curve" smooth="yes"/>
+			<point x="42.4" y="10"/>
+			<point x="10" y="46"/>
+			<point x="10" y="98" type="curve" smooth="yes"/>
+			<point x="10" y="142" type="line" smooth="yes"/>
+			<point x="10" y="194"/>
+			<point x="42.4" y="230"/>
+			<point x="90" y="230" type="curve" smooth="yes"/>
+			<point x="137.6" y="230"/>
+			<point x="170" y="194"/>
+			<point x="170" y="142" type="curve" smooth="yes"/>
+			<point x="170" y="98" type="line" smooth="yes"/>
+			<point x="170" y="45.6"/>
+			<point x="138.4" y="10"/>
+		</contour>
+	</outline>
+</glyph>

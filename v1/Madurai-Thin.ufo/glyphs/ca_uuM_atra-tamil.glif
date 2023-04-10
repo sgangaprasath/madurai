@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ca_uuMatra-tamil" format="2">
+	<advance width="490"/>
+	<anchor x="420" y="600" name="imatra"/>
+	<anchor x="245" y="600" name="top"/>
+	<outline>
+		<contour>
+			<point x="225" y="-220" type="curve" smooth="yes"/>
+			<point x="348" y="-220" type="line" smooth="yes"/>
+			<point x="406" y="-220"/>
+			<point x="450" y="-176"/>
+			<point x="450" y="-118" type="curve" smooth="yes"/>
+			<point x="450" y="4" type="line" smooth="yes"/>
+			<point x="450" y="35"/>
+			<point x="425" y="60"/>
+			<point x="394" y="60" type="curve" smooth="yes"/>
+			<point x="370" y="60" type="line"/>
+			<point x="370" y="340" type="line"/>
+			<point x="435" y="340" type="line" smooth="yes"/>
+			<point x="440" y="340"/>
+			<point x="445" y="344"/>
+			<point x="445" y="350" type="curve" smooth="yes"/>
+			<point x="445" y="356"/>
+			<point x="440" y="360"/>
+			<point x="435" y="360" type="curve" smooth="yes"/>
+			<point x="260" y="360" type="line"/>
+			<point x="260" y="590" type="line"/>
+			<point x="360" y="590" type="line" smooth="yes"/>
+			<point x="366" y="590"/>
+			<point x="370" y="594"/>
+			<point x="370" y="600" type="curve" smooth="yes"/>
+			<point x="370" y="606"/>
+			<point x="366" y="610"/>
+			<point x="360" y="610" type="curve" smooth="yes"/>
+			<point x="130" y="610" type="line" smooth="yes"/>
+			<point x="124" y="610"/>
+			<point x="120" y="606"/>
+			<point x="120" y="600" type="curve" smooth="yes"/>
+			<point x="120" y="357" type="line"/>
+			<point x="76" y="346"/>
+			<point x="40" y="304"/>
+			<point x="40" y="248" type="curve" smooth="yes"/>
+			<point x="40" y="102" type="line" smooth="yes"/>
+			<point x="40" y="38"/>
+			<point x="86" y="-10"/>
+			<point x="150" y="-10" type="curve" smooth="yes"/>
+			<point x="214" y="-10"/>
+			<point x="260" y="38"/>
+			<point x="260" y="102" type="curve" smooth="yes"/>
+			<point x="260" y="340" type="line"/>
+			<point x="350" y="340" type="line"/>
+			<point x="350" y="0" type="line" smooth="yes"/>
+			<point x="350" y="-6"/>
+			<point x="354" y="-10"/>
+			<point x="360" y="-10" type="curve" smooth="yes"/>
+			<point x="366" y="-10"/>
+			<point x="370" y="-6"/>
+			<point x="370" y="0" type="curve" smooth="yes"/>
+			<point x="370" y="40" type="line"/>
+			<point x="394" y="40" type="line" smooth="yes"/>
+			<point x="416" y="40"/>
+			<point x="430" y="26"/>
+			<point x="430" y="4" type="curve" smooth="yes"/>
+			<point x="430" y="-118" type="line" smooth="yes"/>
+			<point x="430" y="-167"/>
+			<point x="397" y="-200"/>
+			<point x="348" y="-200" type="curve" smooth="yes"/>
+			<point x="269" y="-200" type="line"/>
+			<point x="279" y="-189"/>
+			<point x="285" y="-175"/>
+			<point x="285" y="-160" type="curve" smooth="yes"/>
+			<point x="285" y="-128"/>
+			<point x="257" y="-100"/>
+			<point x="225" y="-100" type="curve" smooth="yes"/>
+			<point x="193" y="-100"/>
+			<point x="165" y="-128"/>
+			<point x="165" y="-160" type="curve" smooth="yes"/>
+			<point x="165" y="-192"/>
+			<point x="193" y="-220"/>
+		</contour>
+		<contour>
+			<point x="225" y="-200" type="curve" smooth="yes"/>
+			<point x="202" y="-200"/>
+			<point x="185" y="-183"/>
+			<point x="185" y="-160" type="curve" smooth="yes"/>
+			<point x="185" y="-137"/>
+			<point x="202" y="-120"/>
+			<point x="225" y="-120" type="curve" smooth="yes"/>
+			<point x="248" y="-120"/>
+			<point x="265" y="-137"/>
+			<point x="265" y="-160" type="curve" smooth="yes"/>
+			<point x="265" y="-183"/>
+			<point x="248" y="-200"/>
+		</contour>
+		<contour>
+			<point x="150" y="10" type="curve" smooth="yes"/>
+			<point x="96" y="10"/>
+			<point x="60" y="47"/>
+			<point x="60" y="102" type="curve" smooth="yes"/>
+			<point x="60" y="248" type="line" smooth="yes"/>
+			<point x="60" y="303"/>
+			<point x="97" y="340"/>
+			<point x="142" y="340" type="curve" smooth="yes"/>
+			<point x="240" y="340" type="line"/>
+			<point x="240" y="102" type="line" smooth="yes"/>
+			<point x="240" y="47"/>
+			<point x="204" y="10"/>
+		</contour>
+		<contour>
+			<point x="140" y="360" type="line"/>
+			<point x="140" y="590" type="line"/>
+			<point x="240" y="590" type="line"/>
+			<point x="240" y="360" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>ca-tamil</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>ca-tamil</string>
+		</dict>
+	</lib>
+</glyph>

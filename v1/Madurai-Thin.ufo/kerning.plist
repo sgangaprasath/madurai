@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ca-tamil</key>
+	<dict>
+		<key>nya-tamil</key>
+		<integer>-40</integer>
+	</dict>
+	<key>e-tamil</key>
+	<dict>
+		<key>ee-tamil</key>
+		<integer>-40</integer>
+	</dict>
+	<key>ee-tamil</key>
+	<dict>
+		<key>ka-tamil</key>
+		<integer>-50</integer>
+	</dict>
+	<key>la_iiMatra-tamil</key>
+	<dict>
+		<key>sa-tamil</key>
+		<integer>-80</integer>
+	</dict>
+	<key>lla-tamil</key>
+	<dict>
+		<key>lla_uMatra-tamil</key>
+		<integer>-50</integer>
+	</dict>
+	<key>ra-tamil</key>
+	<dict>
+		<key>rra-tamil</key>
+		<integer>-90</integer>
+	</dict>
+	<key>sa_iiMatra-tamil</key>
+	<dict>
+		<key>ya_uuMatra-tamil</key>
+		<integer>-80</integer>
+	</dict>
+	<key>ssa-tamil</key>
+	<dict>
+		<key>uu-tamil</key>
+		<integer>-40</integer>
+	</dict>
+	<key>u-tamil</key>
+	<dict>
+		<key>e-tamil</key>
+		<integer>-50</integer>
+	</dict>
+</dict>
+</plist>

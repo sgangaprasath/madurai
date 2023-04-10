@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="taKeezh" format="2">
+	<advance width="422"/>
+	<outline>
+		<contour>
+			<point x="30" y="-310" type="curve" smooth="yes"/>
+			<point x="35.6" y="-310"/>
+			<point x="40" y="-305.6"/>
+			<point x="40" y="-300" type="curve" smooth="yes"/>
+			<point x="40" y="-212.8" type="line" smooth="yes"/>
+			<point x="40" y="-129.2"/>
+			<point x="99.2" y="-70"/>
+			<point x="183.2" y="-70" type="curve" smooth="yes"/>
+			<point x="231.2" y="-70" type="line" smooth="yes"/>
+			<point x="347.6" y="-70"/>
+			<point x="400" y="12"/>
+			<point x="400" y="145.2" type="curve" smooth="yes"/>
+			<point x="400" y="284"/>
+			<point x="355.2" y="360"/>
+			<point x="251.2" y="360" type="curve" smooth="yes"/>
+			<point x="231.2" y="360" type="line" smooth="yes"/>
+			<point x="225.6" y="360"/>
+			<point x="221.2" y="355.6"/>
+			<point x="221.2" y="350" type="curve" smooth="yes"/>
+			<point x="221.2" y="344.4"/>
+			<point x="225.6" y="340"/>
+			<point x="231.2" y="340" type="curve" smooth="yes"/>
+			<point x="251.2" y="340" type="line" smooth="yes"/>
+			<point x="342.4" y="340"/>
+			<point x="380" y="277.2"/>
+			<point x="380" y="145.2" type="curve" smooth="yes"/>
+			<point x="380" y="18.8"/>
+			<point x="335.6" y="-50"/>
+			<point x="231.2" y="-50" type="curve" smooth="yes"/>
+			<point x="183.2" y="-50" type="line" smooth="yes"/>
+			<point x="89.6" y="-50"/>
+			<point x="20" y="-119.6"/>
+			<point x="20" y="-212.8" type="curve" smooth="yes"/>
+			<point x="20" y="-300" type="line" smooth="yes"/>
+			<point x="20" y="-305.6"/>
+			<point x="24.4" y="-310"/>
+		</contour>
+	</outline>
+</glyph>
