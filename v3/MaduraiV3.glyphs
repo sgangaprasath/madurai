@@ -1,16 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"ஶுஜுஷுஸுஹுக்ஷு",
-"க்ஷூஹூஸூஷூஜூஶூ",
-"ூ",
-"/uMatra-tamil.001",
-"/uMatra-tamil.001/uuMatra-tamil.001",
-"ுூ",
-"/ka_uMatra-tamil",
-"௰"
-);
 axes = (
 {
 name = Weight;
