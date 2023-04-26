@@ -6,7 +6,7 @@ DisplayStrings = (
 "அஆஇஈஉஊஎஏஐஒஓஔகஙசஜஞடணதநனபமயரறலளழவஶஷஸஹஃ/nga-tamil.001",
 "௦௧௨௩௪௫௬௭௮௯",
 "அகராதி",
-"தமிழ்"
+"அகராதி"
 );
 axes = (
 {
@@ -57721,7 +57721,7 @@ unicode = 2979;
 },
 {
 glyphname = "ta-tamil";
-lastChange = "2023-04-26 08:21:05 +0000";
+lastChange = "2023-04-26 13:40:45 +0000";
 layers = (
 {
 anchors = (
@@ -83870,7 +83870,7 @@ unicode = 3006;
 },
 {
 glyphname = "iMatra-tamil";
-lastChange = "2023-04-24 15:54:00 +0000";
+lastChange = "2023-04-26 13:39:47 +0000";
 layers = (
 {
 anchors = (
@@ -88709,6 +88709,7 @@ kerningLTR = {
 };
 "aaMatra-tamil" = {
 "nnna-tamil" = -40;
+"ta-tamil" = -40;
 };
 "ca-tamil" = {
 "nya-tamil" = -40;
@@ -88779,6 +88780,7 @@ eight = -30;
 };
 "aaMatra-tamil" = {
 "nnna-tamil" = -50;
+"ta-tamil" = -30;
 };
 "ca-tamil" = {
 "nya-tamil" = -40;
