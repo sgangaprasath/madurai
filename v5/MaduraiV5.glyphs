@@ -5,7 +5,8 @@ DisplayStrings = (
 "0123456789",
 "அஆஇஈஉஊஎஏஐஒஓஔகஙசஜஞடணதநனபமயரறலளழவஶஷஸஹஃ/nga-tamil.001",
 "௦௧௨௩௪௫௬௭௮௯",
-"னபா"
+"அகராதி",
+"தமிழ்"
 );
 axes = (
 {
@@ -57720,7 +57721,7 @@ unicode = 2979;
 },
 {
 glyphname = "ta-tamil";
-lastChange = "2023-04-18 05:06:13 +0000";
+lastChange = "2023-04-26 08:21:05 +0000";
 layers = (
 {
 anchors = (
@@ -63634,7 +63635,7 @@ unicode = 2995;
 },
 {
 glyphname = "llla-tamil";
-lastChange = "2023-04-24 00:45:49 +0000";
+lastChange = "2023-04-26 08:31:03 +0000";
 layers = (
 {
 anchors = (
@@ -83589,7 +83590,7 @@ width = 55;
 },
 {
 glyphname = "aaMatra-tamil";
-lastChange = "2023-04-11 05:52:00 +0000";
+lastChange = "2023-04-26 08:21:03 +0000";
 layers = (
 {
 layerId = "7BAC99B4-31F2-487C-BACA-69B20297995E";
@@ -88845,6 +88846,7 @@ eight = -30;
 };
 "aaMatra-tamil" = {
 "nnna-tamil" = -30;
+"ta-tamil" = -60;
 };
 "ca-tamil" = {
 "iMatra-tamil.002" = -60;
@@ -88858,6 +88860,9 @@ eight = -30;
 };
 "iMatra-tamil" = {
 "aaMatra-tamil" = 0;
+};
+"iMatra-tamil.002" = {
+"llla-tamil" = 50;
 };
 "ja-tamil" = {
 "uMatra-tamil" = -10;
@@ -88898,6 +88903,7 @@ eight = -30;
 "pa-tamil" = -50;
 };
 "ra-tamil" = {
+"aaMatra-tamil" = -10;
 "iMatra-tamil" = 0;
 "iMatra-tamil.002" = -70;
 "ka-tamil" = -70;
