@@ -1,6 +1,6 @@
 ## Madurai by [Agam Type Foundry](https://twitter.com/AgamTypeFoundry)
 
-[Download Madurai](https://github.com/sgangaprasath/madurai/tree/main/Latest) :arrow_down:
+[Download Madurai](https://github.com/sgangaprasath/madurai/tree/main/Latest/OTF) :arrow_down:
 
 This is the beta version of the Tamil typeface Madurai, a simple and versatile typeface available in 3 weights. Madurai is designed by [Agam Type Foundry](https://twitter.com/AgamTypeFoundry). This is a display family suitable for headlines, captions, and packaging and is inspired by the famous Bebas font family.
 
