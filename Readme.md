@@ -1,9 +1,7 @@
 ## Madurai
 
-[Download Madurai](https://github.com/sgangaprasath/madurai/tree/main/Latest) ↗️
-
-Simple and versatile typeface for Tamil available in 3 weights, designed by [Agam Type Foundry](https://twitter.com/AgamTypeFoundry).
-Madurai is a display family suitable for headlines, captions, and packaging and is inspired by the famous Bebas font family.
+[Download Madurai](https://github.com/sgangaprasath/madurai/tree/main/Latest) by [Agam Type Foundry](https://twitter.com/AgamTypeFoundry)
+This is the beta version of the Tamil typeface Madurai, a simple and versatile typeface available in 3 weights. Madurai is designed by [Agam Type Foundry](https://twitter.com/AgamTypeFoundry). This is a display family suitable for headlines, captions, and packaging and is inspired by the famous Bebas font family.
 
 ![Poster-1](/Posters/Posters-01.png "Title poster")
 ![Poster-2](/Posters/Posters-02.png "Title-2 poster")
@@ -32,5 +30,5 @@ html {
 ```
 
 ## License
-Madurai is distributed under [CC-BY license](https://en.wikipedia.org/wiki/Attribution_(copyright)) and appropriate attributions can be made to this Github link.
+Madurai is distributed under [CC-BY](https://en.wikipedia.org/wiki/Attribution_(copyright)) license and appropriate attributions can be made to this Github link.
 All the versions of the Madurai typeface (in `.glyphs` format) developed using [Glyphs](https://glyphsapp.com) are available with this package. 
